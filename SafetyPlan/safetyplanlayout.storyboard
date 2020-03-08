@@ -1161,7 +1161,7 @@
         <!--Overview-->
         <scene sceneID="azQ-cZ-EvU">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="PH9-v6-DKj" customClass="GuideOverviewViewController" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="PH9-v6-DKj" customClass="GuideOverviewViewContoller" customModule="Safety_Plan" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DaW-6Q-YM9"/>
                         <viewControllerLayoutGuide type="bottom" id="pRi-DT-nu8"/>
@@ -1192,9 +1192,6 @@ This application is designed to support you and help you deal with your suicidal
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Overview" id="ewJ-aA-lcK"/>
-                    <connections>
-                        <outlet property="textView" destination="Hfn-ED-HSe" id="x9Q-E0-VAs"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ipz-tY-ALR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1264,7 +1261,7 @@ This application is designed to support you and help you deal with your suicidal
         <!--Coping-->
         <scene sceneID="yZ3-cA-YbM">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="zb3-l8-EWS" customClass="GuideCopingViewController" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="zb3-l8-EWS" customClass="GuideCopingViewController" customModule="Safety_Plan" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="noj-ZA-7y3"/>
                         <viewControllerLayoutGuide type="bottom" id="7i7-u6-9j4"/>
@@ -1439,9 +1436,6 @@ Think of ways that you can potentially solve your problems. Make a list of all o
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Coping" id="Ou5-A6-npT"/>
-                    <connections>
-                        <outlet property="textView" destination="msI-bs-JwT" id="puD-Cz-1Es"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2nG-h7-8NH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

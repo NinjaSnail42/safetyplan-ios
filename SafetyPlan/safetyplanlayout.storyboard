@@ -1889,7 +1889,7 @@ Remove potential means of suicide - Remove knives, guns, and other potential let
         <!--Resources-->
         <scene sceneID="NZu-AX-hGD">
             <objects>
-                <viewController title="Resources" id="x6i-fE-SJq" customClass="GuideResources2ViewController" sceneMemberID="viewController">
+                <viewController title="Resources" id="x6i-fE-SJq" customClass="GuideResourcesViewContoller" customModule="Safety_Plan" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Orr-P6-ViL"/>
                         <viewControllerLayoutGuide type="bottom" id="ITS-IN-OW0"/>

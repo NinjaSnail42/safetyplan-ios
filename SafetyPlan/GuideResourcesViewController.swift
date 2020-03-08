@@ -43,11 +43,11 @@ class GuideResourcesViewContoller: UIViewController {
     
     
     func openURL(url: String) {
-        if let urlOpen = URL(string: url) {
+        if let webURL = URL(string: url) {
             if #available(iOS 10.0, *) {
-                UIApplication.shared.open(urlOpen, options: [:])
+                UIApplication.shared.open(webURL, options: [:])
             } else {
-                UIApplication.shared.openURL(urlOpen)
+                UIApplication.shared.openURL(webURL)
             }
         }
     }

@@ -1,5 +1,5 @@
 //
-//  GuideOverviewViewController.swift
+//  GuideRecoveringViewContoller.swift
 //  Safety Plan
 //
 //  Created by Brandon Huettner on 3/8/20.
@@ -9,7 +9,7 @@
 import UIKit
 
 
-class GuideOverviewViewContoller: UIViewController {
+class GuideRecoveringViewContoller: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

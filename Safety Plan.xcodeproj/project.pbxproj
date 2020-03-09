@@ -21,7 +21,6 @@
 		2C67D9A31B584FFA00C53652 /* EditProfessionalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C67D9831B584FFA00C53652 /* EditProfessionalsViewController.m */; };
 		2C67D9A41B584FFA00C53652 /* EditReasonsToLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C67D9851B584FFA00C53652 /* EditReasonsToLiveViewController.m */; };
 		2C67D9A51B584FFA00C53652 /* EditWarningSignsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C67D9871B584FFA00C53652 /* EditWarningSignsViewController.m */; };
-		2C67D9A81B584FFA00C53652 /* GuideRecoveringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C67D98D1B584FFA00C53652 /* GuideRecoveringViewController.m */; };
 		2C67D9A91B584FFA00C53652 /* GuideSafetyPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C67D98F1B584FFA00C53652 /* GuideSafetyPlanViewController.m */; };
 		2C67D9AA1B584FFA00C53652 /* SafetyPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C67D9911B584FFA00C53652 /* SafetyPlanViewController.m */; };
 		2C67D9AB1B584FFA00C53652 /* SuicideGuidePreventionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C67D9931B584FFA00C53652 /* SuicideGuidePreventionViewController.m */; };
@@ -33,6 +32,7 @@
 		3F124AED2414D54200059393 /* GuideResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F124AEC2414D54200059393 /* GuideResourcesViewController.swift */; };
 		3F124AEF2414DB9400059393 /* GuideCopingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F124AEE2414DB9400059393 /* GuideCopingViewController.swift */; };
 		3F124AF1241546DF00059393 /* GuideOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F124AF0241546DF00059393 /* GuideOverviewViewController.swift */; };
+		3F124AF32415487100059393 /* GuideRecoveringViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F124AF22415487100059393 /* GuideRecoveringViewContoller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,8 +72,6 @@
 		2C67D9851B584FFA00C53652 /* EditReasonsToLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditReasonsToLiveViewController.m; sourceTree = "<group>"; };
 		2C67D9861B584FFA00C53652 /* EditWarningSignsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditWarningSignsViewController.h; sourceTree = "<group>"; };
 		2C67D9871B584FFA00C53652 /* EditWarningSignsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditWarningSignsViewController.m; sourceTree = "<group>"; };
-		2C67D98C1B584FFA00C53652 /* GuideRecoveringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideRecoveringViewController.h; sourceTree = "<group>"; };
-		2C67D98D1B584FFA00C53652 /* GuideRecoveringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideRecoveringViewController.m; sourceTree = "<group>"; };
 		2C67D98E1B584FFA00C53652 /* GuideSafetyPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideSafetyPlanViewController.h; sourceTree = "<group>"; };
 		2C67D98F1B584FFA00C53652 /* GuideSafetyPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideSafetyPlanViewController.m; sourceTree = "<group>"; };
 		2C67D9901B584FFA00C53652 /* SafetyPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafetyPlanViewController.h; sourceTree = "<group>"; };
@@ -92,6 +90,7 @@
 		3F124AEC2414D54200059393 /* GuideResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideResourcesViewController.swift; sourceTree = "<group>"; };
 		3F124AEE2414DB9400059393 /* GuideCopingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCopingViewController.swift; sourceTree = "<group>"; };
 		3F124AF0241546DF00059393 /* GuideOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideOverviewViewController.swift; sourceTree = "<group>"; };
+		3F124AF22415487100059393 /* GuideRecoveringViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideRecoveringViewContoller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,8 +192,6 @@
 			isa = PBXGroup;
 			children = (
 				3F124AEE2414DB9400059393 /* GuideCopingViewController.swift */,
-				2C67D98C1B584FFA00C53652 /* GuideRecoveringViewController.h */,
-				2C67D98D1B584FFA00C53652 /* GuideRecoveringViewController.m */,
 				2C67D98E1B584FFA00C53652 /* GuideSafetyPlanViewController.h */,
 				2C67D98F1B584FFA00C53652 /* GuideSafetyPlanViewController.m */,
 				2C67D9871B584FFA00C53652 /* EditWarningSignsViewController.m */,
@@ -202,6 +199,7 @@
 				2C67D9931B584FFA00C53652 /* SuicideGuidePreventionViewController.m */,
 				3F124AEC2414D54200059393 /* GuideResourcesViewController.swift */,
 				3F124AF0241546DF00059393 /* GuideOverviewViewController.swift */,
+				3F124AF22415487100059393 /* GuideRecoveringViewContoller.swift */,
 			);
 			name = Guide;
 			sourceTree = "<group>";
@@ -349,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F124AF32415487100059393 /* GuideRecoveringViewContoller.swift in Sources */,
 				2C67D9A91B584FFA00C53652 /* GuideSafetyPlanViewController.m in Sources */,
 				2C44A9FB1B1CBA7C005D208C /* AppDelegate.m in Sources */,
 				2C67D9AE1B584FFA00C53652 /* SuicideSafetyPlanTabViewController.m in Sources */,
@@ -368,7 +367,6 @@
 				2C67D9AF1B584FFA00C53652 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				2C67D99F1B584FFA00C53652 /* CrisisViewController.m in Sources */,
 				2C67D9A51B584FFA00C53652 /* EditWarningSignsViewController.m in Sources */,
-				2C67D9A81B584FFA00C53652 /* GuideRecoveringViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

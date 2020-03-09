@@ -1444,7 +1444,7 @@ Think of ways that you can potentially solve your problems. Make a list of all o
         <!--Recovering-->
         <scene sceneID="3D8-X6-0Az">
             <objects>
-                <viewController title="Recovering" automaticallyAdjustsScrollViewInsets="NO" id="z03-CO-2ol" customClass="GuideRecoveringViewController" sceneMemberID="viewController">
+                <viewController title="Recovering" automaticallyAdjustsScrollViewInsets="NO" id="z03-CO-2ol" customClass="GuideRecoveringViewContoller" customModule="Safety_Plan" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KHa-ON-oBa"/>
                         <viewControllerLayoutGuide type="bottom" id="XBG-Av-cwQ"/>
@@ -1604,9 +1604,6 @@ Cg
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Recovering" id="dmY-jm-xHm"/>
-                    <connections>
-                        <outlet property="textView" destination="g2C-kA-0ad" id="6dO-0Q-PTC"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="24o-eQ-ib1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

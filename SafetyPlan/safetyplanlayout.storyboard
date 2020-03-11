@@ -1685,7 +1685,7 @@ This application is designed to support you and help you deal with your suicidal
         <!--Suicide Prevention-->
         <scene sceneID="Gww-To-wqg">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="fRt-Pb-egW" customClass="SuicideGuidePreventionViewController" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="fRt-Pb-egW" customClass="GuideSuicidePreventionViewController" customModule="Safety_Plan" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uuS-lg-MQT"/>
                         <viewControllerLayoutGuide type="bottom" id="Zsz-So-Mvd"/>
@@ -1869,9 +1869,6 @@ Remove potential means of suicide - Remove knives, guns, and other potential let
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Suicide Prevention" id="2Oa-RV-UfP"/>
-                    <connections>
-                        <outlet property="textView" destination="1oX-eO-XIw" id="Mf9-go-Yu0"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qn8-v2-igR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

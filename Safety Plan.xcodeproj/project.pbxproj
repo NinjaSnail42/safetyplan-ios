@@ -194,7 +194,6 @@
 				3FE11134241940C6006D4099 /* GuideSuicidePreventionViewController.swift */,
 				2C67D98E1B584FFA00C53652 /* GuideSafetyPlanViewController.h */,
 				2C67D98F1B584FFA00C53652 /* GuideSafetyPlanViewController.m */,
-				2C67D9871B584FFA00C53652 /* EditWarningSignsViewController.m */,
 				3F124AEC2414D54200059393 /* GuideResourcesViewController.swift */,
 				3F124AF0241546DF00059393 /* GuideOverviewViewController.swift */,
 				3F124AF22415487100059393 /* GuideRecoveringViewContoller.swift */,
@@ -224,6 +223,7 @@
 				2C67D9831B584FFA00C53652 /* EditProfessionalsViewController.m */,
 				2C67D9841B584FFA00C53652 /* EditReasonsToLiveViewController.h */,
 				2C67D9851B584FFA00C53652 /* EditReasonsToLiveViewController.m */,
+				2C67D9871B584FFA00C53652 /* EditWarningSignsViewController.m */,
 				2C67D9861B584FFA00C53652 /* EditWarningSignsViewController.h */,
 			);
 			name = "Safety Plan";
